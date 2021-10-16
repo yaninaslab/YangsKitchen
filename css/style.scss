@@ -1,0 +1,25 @@
+
+@import 'global';
+
+#page-header {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    height: 100px;
+}
+#page-header>img {
+    width: 120px;
+    height: 50px;
+    justify-self: end;
+}
+div {
+    display: grid;
+}
+#page-content {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px;
+    row-gap: 15px;
+
+}
